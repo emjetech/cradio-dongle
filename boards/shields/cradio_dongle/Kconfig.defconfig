@@ -1,15 +1,15 @@
 
-if SHIELD_LILY58_DONGLE
+if SHIELD_CRADIO_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Lily58_Dongle"
+    default "Cradio_Dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_LILY58_LEFT || SHIELD_LILY58_RIGHT || SHIELD_LILY58_DONGLE
+if SHIELD_CRADIO_LEFT || SHIELD_CRADIO_RIGHT || SHIELD_CRADIO_DONGLE
 
 config ZMK_SPLIT
     default y
